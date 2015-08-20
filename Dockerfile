@@ -1,3 +1,5 @@
 #play 2048
 FROM daocloud.io/nginx
-RUN echo "install 2048"
+RUN rm -f /usr/share/nginx/html/index.html
+ADD / /usr/share/nginx/html/
+EXPOSE 80
