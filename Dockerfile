@@ -1,3 +1,3 @@
 #play 2048
-FROM Nginx
+FROM daocloud.io/nginx
 RUN echo "install 2048"
