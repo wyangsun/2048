@@ -1,3 +1,3 @@
 #play 2048
-FROM hello-world-nginx
+FROM Nginx
 RUN echo "install 2048"
